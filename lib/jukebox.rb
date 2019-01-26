@@ -47,7 +47,7 @@ help
 input = ""
 while input
   puts "Please enter a command:"
-  input = gets.chomp
+  input = gets.chomp 
   if input == "list"
     list(songs)
   elsif input == "play"
@@ -55,7 +55,7 @@ while input
   elsif input == "help"
     help
   elsif input == "exit"
-    exit_jukebox
+    return exit_jukebox
   else
     puts "Please enter a valid command"
     end
