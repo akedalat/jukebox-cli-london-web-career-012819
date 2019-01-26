@@ -51,7 +51,7 @@ while input
   if input == "list"
     list
   elsif input == "play"
-    play
+    play(songs)
   elsif input == "help"
     help
   elsif input == "exit"
