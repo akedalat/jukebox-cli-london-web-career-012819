@@ -44,7 +44,7 @@ end
 
 def run(songs)
 help
-input == ""
+input = ""
 while input
   puts "Please enter a command:"
   input = gets.chomp
