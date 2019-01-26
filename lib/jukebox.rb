@@ -49,7 +49,7 @@ while input
   puts "Please enter a command:"
   input = gets.chomp
   if input == "list"
-    list
+    list(songs)
   elsif input == "play"
     play(songs)
   elsif input == "help"
