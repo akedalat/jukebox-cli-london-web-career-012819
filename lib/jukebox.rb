@@ -56,6 +56,8 @@ while input
     help
   elsif input == "exit"
     exit_jukebox
+  else
+    puts "Please enter a valid command"
     end
   end
 end
